@@ -11,7 +11,7 @@ RUN apt-get update \
        python3-setuptools \
        python3-pip \
        software-properties-common \
-       rsyslog systemd systemd-cron sudo iproute2 \
+       rsyslog systemd systemd-cron sudo iproute2 dirmngr \
     && rm -Rf /var/lib/apt/lists/* \
     && rm -Rf /usr/share/doc && rm -Rf /usr/share/man \
     && apt-get clean
