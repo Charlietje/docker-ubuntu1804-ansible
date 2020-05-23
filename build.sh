@@ -1,3 +1,3 @@
 #!/bin/bash -
-docker build -t geerlingguy/docker-ubuntu1804-ansible .
+docker build -t opscharlie/docker-ubuntu1804-ansible .
 
